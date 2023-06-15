@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+:root {
+    --gloom: #2B363B;
+}
+
+body {
+    background-image: url("wooden.jpg");
+    background-size: cover;
+    font-family: "Metal Mania";
+    text-align: center;
+    height: 100vh;
+    color: var(--gloom)
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--gloom)
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
